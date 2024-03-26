@@ -1,6 +1,7 @@
 <template>
-  <h1 class="text-white">Hello world!</h1>
+  <SignupForm />
 </template>
 
-<script>
+<script setup>
+import SignupForm from "./components/SignupForm.vue";
 </script>
